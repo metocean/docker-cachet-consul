@@ -1,0 +1,6 @@
+{
+  "service": {
+    "name": "status-web",
+    "port": 8000
+  }
+}
