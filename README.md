@@ -5,7 +5,7 @@ Uses the [CachetHQ Repo](https://github.com/cachethq/Cachet) as base.
 
 The Docker Image of this is hosted at [Docker Hub](https://registry.hub.docker.com/u/metocean/cachet-consul/)
 
-To use/pull it execute these commands in a Terminal Window:
+To use/pull it, execute these commands in a Terminal Window:
 ```bash
 docker pull metocean/cachet-consul
 ```
