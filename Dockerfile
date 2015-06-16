@@ -7,7 +7,7 @@ RUN cd /bin \
 && unzip /tmp/consul.zip \
 && chmod +x /bin/consul \
 && rm /tmp/consul.zip \
-&& echo $"[program:consul]\ncommand=/bin/consul agent -data-dir /consul-data -config-dir /consul" >> /etc/supervisor/supervisord.conf \
+&& printf "\n[program:consul]\ncommand=/bin/consul agent -data-dir /consul-data -config-dir /consul" >> /etc/supervisor/supervisord.conf \
 && mkdir /consul-data \
 && mkdir /consul 
 COPY docker/status.json /consul/status.json
